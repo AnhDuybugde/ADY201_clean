@@ -1,0 +1,44 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.so
+
+# --- Virtual environment ---
+venv/
+.venv/
+
+# --- IDEs & Editors ---
+.vscode/
+.idea/
+
+# --- OS files ---
+.DS_Store
+Thumbs.db
+
+# --- Logs & temporary files ---
+*.log
+*.tmp
+*.bak
+
+# --- Jupyter/Colab ---
+.ipynb_checkpoints/
+*.ipynb
+
+# --- Streamlit cache ---
+.streamlit/
+*.db
+
+# --- Environment files ---
+.env
+*.sqlite3
+
+# --- Build / distribution ---
+build/
+dist/
+*.egg-info/
+
+
+# Models
+Model/experiments/
+*.pkl
+*.zip
